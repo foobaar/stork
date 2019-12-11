@@ -21,7 +21,6 @@ jobs:
             sudo pip install pipenv
             pipenv install
             sudo pip install flake8
-            sudo pip install -r requirements.txt
       - run:
           command: |
             flake8 storkbaby/storkbabyapp/*.py
